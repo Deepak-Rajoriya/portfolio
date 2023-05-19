@@ -163,10 +163,16 @@
     @media screen and (max-width: 1440px){
         .side-bar { max-height:650px; }
     }
-    @media screen and (max-width: 1200px){}
-    @media screen and (max-width: 992px){ .side-bar { max-height:unset; position:unset; } .sec-pad {
-        padding: 30px 15px;
-    } }
+    @media screen and (max-width: 992px){
+        .hover-effect {
+            background: rgba(30, 41, 59, .5) !IMPORTANT;
+            --tw-shadow: inset 0 1px 0 0 rgba(148, 163, 184, .1);
+            --tw-shadow-colored: inset 0 1px 0 0 var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        }
+        .side-bar { max-height:unset; position:unset; }
+        .sec-pad { padding: 30px 15px; }
+    }
 /*    @media screen and (max-width: 768px){}*/
     </style>
 </head>
@@ -219,7 +225,7 @@
                     </div>
                     <div id="experience">
                         <h3>Experience</h3>
-                        <a class="card mb-3 bg-transparent hover-effect" href="#">
+                        <a class="card mb-3 bg-transparent hover-effect border-0" href="#">
                             <div class="row g-0">
                                 <div class="col-md-3 py-md-3 px-xl-3 px-lg-2 px-3 pt-3">
                                     <p class="fs-14 text-md-center date m-0">2018 - 2019</p>
@@ -241,7 +247,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="card mb-3 bg-transparent hover-effect" href="#">
+                        <a class="card mb-3 bg-transparent hover-effect border-0" href="#">
                             <div class="row g-0">
                                 <div class="col-md-3 py-md-3 px-xl-3 px-lg-2 px-3 pt-3">
                                     <p class="fs-14 text-md-center date m-0">2018 - 2019</p>
@@ -263,7 +269,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="card mb-3 bg-transparent hover-effect" href="#">
+                        <a class="card mb-3 bg-transparent hover-effect border-0" href="#">
                             <div class="row g-0">
                                 <div class="col-md-3 py-md-3 px-xl-3 px-lg-2 px-3 pt-3">
                                     <p class="fs-14 text-md-center date m-0">2018 - 2019</p>
@@ -288,7 +294,7 @@
                     </div>
                     <div id="projects">
                         <h3>Projects</h3>
-                        <a class="card mb-3 bg-transparent hover-effect" href="#">
+                        <a class="card mb-3 bg-transparent hover-effect border-0" href="#">
                             <div class="row g-0">
                                 <div class="col-md-3 py-md-3 px-xl-3 px-lg-2 px-3 pt-3">
                                     <p class="fs-14 text-md-center date m-0">2018 - 2019</p>
@@ -310,7 +316,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="card mb-3 bg-transparent hover-effect" href="#">
+                        <a class="card mb-3 bg-transparent hover-effect border-0" href="#">
                             <div class="row g-0">
                                 <div class="col-md-3 py-md-3 px-xl-3 px-lg-2 px-3 pt-3">
                                     <p class="fs-14 text-md-center date m-0">2018 - 2019</p>
@@ -332,7 +338,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="card mb-3 bg-transparent hover-effect" href="#">
+                        <a class="card mb-3 bg-transparent hover-effect border-0" href="#">
                             <div class="row g-0">
                                 <div class="col-md-3 py-md-3 px-xl-3 px-lg-2 px-3 pt-3">
                                     <p class="fs-14 text-md-center date m-0">2018 - 2019</p>
