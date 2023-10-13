@@ -1634,6 +1634,7 @@
   .tf__banner_2 {
     height: auto;
     padding: 50px 0px 50px 0px;
+    background-position: left !important;
   }
 
   .tf__banner_text_2 {
@@ -1695,11 +1696,11 @@
   }
 
   .tf__single_skill_2 {
-    padding: 20px 20px 20px 50px;
+    padding: 20px;
   }
 
   .tf__skills_2 .nav .nav-item button {
-    padding: 10px 12px;
+    padding: 10px 8px;
     font-size: 13px;
     margin: 5px;
   }
