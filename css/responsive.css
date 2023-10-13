@@ -819,7 +819,7 @@
     ==============================*/
 }
 
-@media (min-width: 300px) and (max-width: 767.99px) {
+@media (min-width: 575.99px) and (max-width: 767.99px) {
   /*==============================
      HOME PAGE START
     ==============================*/
@@ -1140,7 +1140,7 @@
 
   .tf__banner_2 {
     height: auto;
-    padding: 70px 0px 105px 0px;
+    padding: 50px 0px 50px 0px;
   }
 
   .tf__banner_text_2 {
@@ -1229,6 +1229,10 @@
   /*==============================
      HOME PAGE START
     ==============================*/
+    .progress {
+      right: 14px;
+      bottom: 14px;
+  }
   .main_menu .navbar-brand {
     width: 100px;
     height: auto;
@@ -1299,7 +1303,7 @@
 
   .tf__banner_text h1,
   .tf__banner_text h1 span {
-    font-size: 48px !important;
+    font-size: 42px !important;
   }
 
   .tf__banner_text h3 {
@@ -1327,7 +1331,7 @@
   }
 
   .tf__section_heading h2 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 45px;
   }
   .tf__section_heading h2 br {
@@ -1629,7 +1633,7 @@
 
   .tf__banner_2 {
     height: auto;
-    padding: 70px 0px 105px 0px;
+    padding: 50px 0px 50px 0px;
   }
 
   .tf__banner_text_2 {
@@ -1637,7 +1641,7 @@
   }
 
   .tf__about_text_2 ul li {
-    margin-top: 70px;
+    margin-top: 40px;
   }
 
   .tf__about_text_2 ul li .top .img {
@@ -1653,6 +1657,8 @@
   .tf__about_img_2 .tf__about_img_text {
     padding: 15px;
     top: 0;
+    top: -35px;
+    right: -20px;
   }
 
   .tf__about_img_2 .tf__about_img_text h4 {
@@ -1693,8 +1699,9 @@
   }
 
   .tf__skills_2 .nav .nav-item button {
-    padding: 10px 20px;
+    padding: 10px 12px;
     font-size: 13px;
+    margin: 5px;
   }
 
   .tf__blog_img_2 {
